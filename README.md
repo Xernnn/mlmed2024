@@ -1,13 +1,13 @@
 # USTH DS 2024 Machine Learning in Medicine
 
-Students are expected to:
+I am expected to:
 
-- Fork this repository to your github account
-- Update student name and ID to this README file
-- Push your commits regularly, with proper commit messages
+- Fork this repository to my github account
+- Update my name and ID to the README file
+- Push my commits ~~regularly~~, with proper commit messages
 
 # Student Info
 
 - Name: Nguyễn Sơn
-- ID: BI23-389
+- ID: BI12-389
 - Group ID: idk you ask me
