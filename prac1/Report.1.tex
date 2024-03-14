@@ -2,52 +2,73 @@
 \usepackage{graphicx}
 
 \title{ECG Heartbeat Classification: A Machine Learning Approach}
-
+\author{Nguyen Son}
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-This document is a template for writing papers on ECG Heartbeat Classification using Machine Learning for IEEE conferences. The abstract should briefly summarize the problem being addressed, the approach taken, the findings of the study, and its implications.
+    This report is not using GPT or anything fancy, it's just a simple report about ECG Heartbeat Classification using Machine Learning. I will introduce you to the project, then I will talk about the background, the method, the results, the discussion, and the conclusion. I hope you enjoy it.
 \end{abstract}
 
-\begin{IEEEkeywords}
-ECG, heartbeat classification, machine learning, cardiac health
-\end{IEEEkeywords}
-
 \section{Introduction}
-The introduction should start with a general discussion about the heart and its importance to overall health. Then, it should narrow down to the specifics of heartbeat monitoring, highlighting its significance in clinical diagnosis. 
+This is the Introduction which I will write out the definition for things and introduce you to the project.
 
-The role and potential of machine learning (ML) in enhancing our understanding and interpretation of ECG data should be introduced, with an emphasis on how ML algorithms can automate the classification of heartbeats into normal or various abnormal conditions. 
+\subsection{Heart}
+Heart is a pretty important organ in the human that we cannot live without. This is an essential organ in animals too. To be more scientific, a heart is a muscle that pumps blood to all parts of your body. (https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/heart)
 
-This section should also provide a brief survey of what has been done in the field of ML for heartbeat classification, identifying gaps that your work aims to fill.
+\subsection{Heartbeat}
+Heartbeat is the rhythmic contraction and relaxation of heart muscles. It's like a continuous drum that's hit all the time, sometimes fast and hard, sometimes slow and calm, but if it not beat anymore, you die. (https://www.vedantu.com/evs/what-is-heartbeat)
 
-\subsection{Heart and its Importance}
-Explain the fundamental aspects of the heart's function and its critical role in human health.
+\subsection{Heartbeat in Clinical Diagnosis}
+People (Doctors mostly) can use the heartbeat to diagnose the health of a person. The heartbeat can tell you if the person is healthy or not, if the person is stressed or not, if the person is in love or not. If it not beat, you die.
 
-\subsection{Heartbeat Monitoring in Clinical Diagnosis}
-Discuss how heartbeat monitoring is used in clinical settings, its importance, and what it can reveal about cardiac health.
+\subsection{Machine Learning}
+It's the use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyze and draw inferences from patterns in data. (Oxford Dictionary)
 
 \subsection{Machine Learning in Heartbeat Classification}
-Introduce the concept of machine learning, its relevance to data analysis, and why it is particularly suited to ECG heartbeat classification.
+It's the use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyze and draw inferences from patterns in people's heartbeat for classification. (me, i guess)
 
-\subsection{Survey of Machine Learning Approaches for Heartbeat Classification}
-Provide an overview of existing research in the field, highlighting significant achievements and identifying any limitations or gaps your research aims to address.
+\subsection{What others do in Machine Learning for Heartbeat Classification}
+It takes time to do this, so I will do it later (hopefully).
 
-\section{Problem Statement}
-Clearly state the problem you are addressing in your research. This should include the specific challenges in ECG heartbeat classification that your study aims to overcome, the significance of solving these challenges, and how your approach differs from or improves upon existing methods.
+\subsection{State Problem}
+This is necessary, so we need to do this!!1!!
 
-\section{Methodology}
-\textit{This section should detail the methodology you've used in your research, including data collection, preprocessing, the specific machine learning algorithms applied, and any novel techniques or approaches you've developed.}
+\section{Background}
+\subsection{ECG}
+An electrocardiogram records the electrical signals in the heart. It's a common and painless test used to quickly detect heart problems and monitor the heart's health. (https://www.mayoclinic.org/tests-procedures/ekg/about/pac-20384983)
+
+\subsection{CNN}
+A Convolutional Neural Network, also known as CNN or ConvNet, is a class of neural networks that specializes in processing data that has a grid-like topology, such as an image. A digital image is a binary representation of visual data. It contains a series of pixels arranged in a grid-like fashion that contains pixel values to denote how bright and what color each pixel should be. (https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939)
+
+\section{Method}
+I use Random Forest Model. It's a good model.
+
+First I load the data, then I preprocess the data, then I train the model, then I evaluate the model.
 
 \section{Results}
-\textit{Present the results of your study, including any quantitative evaluations, comparisons to existing methods, and any insights gained from the analysis.}
+I don't know how to make a table in LaTeX, so here is a screenshot instead.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{accuracy.png}
+    \caption{Accuracy}
+    \label{fig:accuracy}
+\end{figure}
+
+and here is the confusion matrix:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{confusionmatrix.png}
+    \caption{Confusion Matrix}
+    \label{fig:accuracy}
+\end{figure}
 
 \section{Discussion}
-\textit{Discuss the implications of your findings, potential applications, and any limitations or areas for future research.}
+It's pretty good I suppose?
 
 \section{Conclusion}
-\textit{Summarize the key findings of your research, its contributions to the field of ECG heartbeat classification and machine learning, and suggest directions for future work.}
-
+Yay I'm done with the first practial let me go to sleep now.
 
 \end{document}
