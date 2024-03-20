@@ -36,13 +36,38 @@ Accurately measuring fetal head circumference can be challenging due to fetal po
 The objective of this project is to explore the techniques and importance of measuring fetal head circumference using ultrasound, addressing the challenges faced during this process and discussing the implications of accurate measurements for prenatal care and fetal health assessment.
 
 \section{Method}
-I'm waiting for the model to finish training so I can write about it.
+I use U-Net which is a simple encode-decode Convolutional Neural Network (CNN) model. It's a good model.
 
 \section{Results}
-I'm waiting for the model to finish training so I can write about it.
+First I visualize the training session.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{eva1.png}
+    \caption{Epochs Visualization}
+    \label{fig:Epochs Visualization}
+\end{figure}
+it looks good i guess?
+
+Then I make this mess
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{eva2.png}
+    \caption{Prediction vs Actual}
+    \label{fig:Prediction vs Actual}
+\end{figure}
+which I really don't know how to comment on.
+
+Finally, I make this Prediction Error Distribution
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{eva3.png}
+    \caption{Prediction Error Distribution}
+    \label{fig:Prediction Error Distribution}
+\end{figure}
+which it also said the Mean Absolute Error is 27.22 mm.
 
 \section{Discussion}
-I'm waiting for the model to finish training so I can write about it.
+The model ran good. I think it's good. I don't know what else to say.
 
 \section{Conclusion}
 Google Colab without Pro sucks.
