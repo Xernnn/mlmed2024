@@ -10,4 +10,4 @@ I am expected to:
 
 - Name: Nguyễn Sơn
 - ID: BI12-389
-- Group ID: idk you ask me
+- Group ID: 2
